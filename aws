@@ -1,0 +1,18 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String name = "Murali";
+        int experience = 2;
+        double salary = 450000;
+
+        System.out.println("Name: " + name);
+        System.out.println("Experience: " + experience + " years");
+        System.out.println("Salary: " + salary);
+
+        if (experience >= 2) {
+            System.out.println("You are eligible for DevOps jobs.");
+        } else {
+            System.out.println("Keep learning and gaining experience.");
+        }
+    }
+}
